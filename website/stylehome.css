@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(istockphoto-1414981473-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
+}
+.menu-bar
+{
+    background: rgb(0,100,0);
+    text-align: center; 
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+    
+    width: 150px;
+    margin: 30px;
+    margin-top: 0px;
+    padding: 50px;
+    margin-bottom: 0px;
+ 
+
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.active, .menu-bar ul li:hover
+{
+    background: #2bab0d;
+    border-radius: 3px;
+}
+ul
+{
+    margin-bottom: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+display: block;
+position: absolute;
+background: rgb(0,100,0);
+margin-top: 15px;
+margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 200px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff ;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+    border-bottom-width: 0.6px ;
+
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color: #2bff00;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover_me:hover .sub-menu-2
+{
+position: absolute;
+display: block;
+margin-top: -40px;
+margin-left: 140px;
+background-color: rgb(0,100,0);
+}
+#home .active
+{
+color: rgb(0,100,0);
+}
+.example
+{
+  margin-top: 30px;
+padding-left: 100px;
+padding-top: 12px;
+text-align: center;
+font-size: 10px;
+}
+.example-1
+{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+.Our-mission
+{
+    color: rgb(154, 146, 146);
+    text-align: center;
+    list-style: none;
+    background: #332;
+    padding-bottom: 50px;
+
+}
+.Our-mission p
+{
+    color: #efefef;
+}
+.footer
+{
+    margin-top: 30px;
+    width: 100%;
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div
+{
+    text-align: center;
+}
+.col-2
+{
+    flex-grow: 2;
+}
+.footer div h3
+{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+form input
+{
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+   outline: none;
+   border: none; 
+}
+form button
+{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #efefef;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icon
+{
+    margin-top: 30px;
+}
+.social-icon i
+{
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+}

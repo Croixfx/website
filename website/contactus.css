@@ -1,0 +1,14 @@
+.content{
+text-align: left;
+}
+.contactinfo{
+    text-align: center;
+    vertical-align: top;
+}
+body{
+    display: flex;
+}
+button a:hover
+{
+color: blue;
+}

@@ -1,0 +1,16 @@
+.section1{
+    display: inline-block;
+    margin-left: 30px;
+}
+.who{
+    text-align: center;
+    margin-bottom: 115px;
+}
+.contacts{
+    vertical-align: text-top;
+    text-align: end;
+    padding-bottom: 9px 2px;
+}
+.contacts h3{
+    padding-bottom: -25px;
+}
